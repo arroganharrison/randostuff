@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>
+		Social-Media-Review
+	</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<div id="app">
+		<div id="main">
+			<div id="sorting">
+				<span><em>Sort by</em>:
+					<button class="sort" value="rank">Rank</button> 
+					<button class="sort" value="created_at">New</button>
+					<button class="sort" value="title">Title</button> 
+				</span>
+			</div>
+			<div class="input">
+				<div id="review-input-thumbnail" style="display: inline-block;">
+					
+				</div>
+				<input id="review-input-title" type="text" placeholder="Title"/>
+				<input id="review-input-genre" type="text" placeholder="Genre"/>
+				<input id="review-input-picture" type="text" placeholder="Image url"/>
+				<select id="review-input-rating">
+					<option value="" selected disabled>How many stars?</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<button id="make-review">Make Review</button>
+				<div id="guesses" class="inset">
+				</div>
+			</div>
+			<div id="reviews-div">
+
+			</div>
+		</div>
+		<div id="addl-info" class="sidebar">
+
+		</div>
+		
+	</div>
+	<script> var app = {} </script>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/underscore-min.js"></script>
+	<script src="../js/backbone-min.js"></script>
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.0/backbone.localStorage-min.js" type="text/javascript"></script>-->
+	<script src="../js/backbone-localstorage.min.js"></script>
+	<script src="../js/Game.model.js"></script>
+	<script src="../js/Review.model.js"></script>
+
+	<script src="../js/App.View.js"></script>
+</body>
+</html>

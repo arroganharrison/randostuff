@@ -1,0 +1,119 @@
+body {
+	/*text-align: center;*/
+	/*border: solid black 1px;*/
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	/*
+	border: solid black 1px;
+	*/
+}
+#main {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 20%;
+	/*border: solid black 1px;*/
+}
+.sidebar {
+	
+	float: right;
+	width: 28%;
+	margin-top: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+	
+}
+
+#game-info {
+	background-color: #C5C1AA;
+	border-radius: 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*height: 600px;*/
+}
+#sorting {
+
+	margin-top: 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #C5C1AA;
+	padding: 5px;
+	/*border: solid black 1px;*/
+}
+.inset {
+
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
+	border: none;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+input {
+
+	font-style: italic;
+	margin: 5px;
+	height: 1.5em;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+div .input {
+	border-radius: 3px;
+	background-color: #C5C1AA;
+	margin-top: 1%;
+	padding: 5px;
+	/*border: solid black 1px;*/
+	/*display: inline-block;*/
+}
+
+.feed {
+	display: inline-block;
+	width: 10em;
+}
+
+span a {
+	color: black;
+	text-decoration: none;
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+button {
+	border: solid lightgray 1px;
+	margin: 0px;
+	text-align: center;
+}
+button:hover {
+	margin: 0px;
+	border: darkgray solid 1px;
+}
+button:active {
+	margin: 0px;
+	border-top: darkgray solid 1px;
+	border-left: darkgray solid 1px;
+	border-right: solid lightgray 1px;;
+	border-bottom: solid lightgray 1px;;
+}
+.feed-holder button:focus {
+	margin: 0px;
+	border-top: darkgray solid 1px;
+	border-left: darkgray solid 1px;
+	border-right: solid lightgray 1px;;
+	border-bottom: solid lightgray 1px;;
+	outline: none;
+}
+.feed-holder {
+
+	border-top: solid lightgray 1px;
+	margin: 2px;
+	padding: 1px;
+	/*background-color: #C5C1AA;
+	border-radius: 3px;*/
+}
